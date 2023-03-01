@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 read_file = pd.read_excel('Basotho_food_Class.xlsx',sheet_name='Sheet1')
 read_file.to_csv('Basotho_Food_CSV.csv', index=None, header=True)
